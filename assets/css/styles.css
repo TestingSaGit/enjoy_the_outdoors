@@ -1,0 +1,106 @@
+/*body{
+    background: url("/assets/images/init/yosemite-valley.jpg") no-repeat center center;
+    background-size: cover;
+    height: 900px;
+    
+
+}*/
+
+#div-image {
+    height: 500px;
+    background-color: #cccccc;
+    background-image: url("/assets/images/init/yosemite-valley.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+nav {
+    background: linear-gradient(rgba(217, 241, 248, 0.8) 0%, rgba(189, 230, 242, 0.8) 35%, rgba(148, 225, 246, 0.8) 100%);
+    font-weight: bold;
+    color: white;
+   }
+
+.nav-color{
+ color: white;
+}
+
+
+.nav-active{
+    color: white;
+    background-color: #89d8f0;
+}
+
+
+main{
+
+    background-color: #CAF0F8;
+    color: #03045E;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+
+/*styles cards */
+
+
+
+.container-margin{
+    /*margin-right: 60px;
+    margin-left: 120px;*/
+    margin:auto;
+    }
+    
+    
+    
+    .my-container-fluid {
+      max-width: 1400px;
+    
+    }
+    
+    .card {
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+      transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+      border: 0;
+      border-radius: 1rem;
+    }
+    
+    .card-img,
+    .card-img-top {
+      border-top-left-radius: calc(1rem - 1px);
+      border-top-right-radius: calc(1rem - 1px);
+    }
+    
+    
+    .card h5 {
+      overflow: hidden;
+      height: 55px;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+    
+    
+    
+    .card-img-top {
+      width: 100%;
+      min-height: 250px;
+      max-height: 250px;
+      object-fit: contain;
+      padding: 30px;
+    }
+    
+    
+    
+    .card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+    }
+    
+    
+    
+    
